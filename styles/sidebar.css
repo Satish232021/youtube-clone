@@ -1,0 +1,48 @@
+.sidebar{
+    position: fixed;
+    top: 64px;
+    bottom: 0;
+    left: 0;
+    width: 76px;
+    font-family: roboto,arial;
+    font-size: 11px;
+    text-wrap: nowrap;
+/*     padding-top: 50px;
+ */    background-color: white;
+ z-index: 2;
+}
+.home-logo,
+.explore-logo,
+.subscriptions-logo,
+.originals-logo,
+.youtube-music-logo,
+.library-logo {
+    height: 24px;
+    
+}
+
+.home-btn,
+.explore-btn,
+.subscriptions-btn,
+.originals-btn,
+.youtube-music-btn,
+.library-btn {
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.home-btn:hover,
+.explore-btn:hover,
+.subscriptions-btn:hover,
+.originals-btn:hover,
+.youtube-music-btn:hover,
+.library-btn:hover {
+    background-color: rgb(229, 226, 226);
+}
+.sidebar.js-sidebar{
+    visibility: visible;
+}
